@@ -1,0 +1,37 @@
+:host {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-image: url('../../../../assets/Login/background.webp');
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* No repeating */
+  }
+  .login_container{
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding:16px 24px;
+    width:350px
+  }
+
+  //Login Header
+  .login_header{
+    margin:auto;
+    text-align: center;
+  }
+  .input_field{
+    width:100%
+  }
+  .forgor_paswword{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .mdc-checkbox{
+    margin-left: 0px;
+  }
+  .forgor_paswword > p{
+    margin: 0;
+  }
+
